@@ -79,7 +79,7 @@ const Past = () => {
                 <Link to={`/launches/${id}`}>
                   <Card
                     className="cardContent"
-                    sx={{ maxWidth: 300, maxHeight: 500 }}
+                    sx={{ maxWidth: 460, maxHeight: 500 }}
                       >
                           
                     <CardHeader title={name} subheader={date_utc} />

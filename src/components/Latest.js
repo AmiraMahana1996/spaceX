@@ -72,14 +72,9 @@ const Latest = () => {
       <>
         <div className="container">
           <Link to={`/launches/${id}`}>
-            <Card className="cardConten" sx={{ maxWidth: 345 }}>
+            <Card className="cardConten" sx={{ maxWidth: 460 }}>
               <CardHeader title={name} subheader={date_utc} />
-              <CardMedia
-                component="img"
-                height="150"
-             
-                alt="Paella dish"
-              />
+              <CardMedia component="img" height="150" alt="Paella dish" />
               <CardContent>
                 <Typography variant="body2" color="text.secondary">
                   This impressive paella is a perfect party dish and a fun meal

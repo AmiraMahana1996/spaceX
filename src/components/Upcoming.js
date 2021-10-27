@@ -70,7 +70,7 @@ const Upcoming = () => {
 
             return (
               <Link to={`/launches/${id}`}>
-                <Card className="cardConten" sx={{ maxWidth: 345 }}>
+                <Card className="cardConten" sx={{ maxWidth: 460 }}>
                   <CardHeader title={name} subheader={date_utc} />
                   <CardMedia
                     component="img"
@@ -98,8 +98,8 @@ const Upcoming = () => {
                   <Collapse in={expanded} timeout="auto" unmountOnExit>
                     <CardContent></CardContent>
                   </Collapse>
-                    </Card>
-                    <br/>
+                </Card>
+                <br />
               </Link>
             );
           })}
