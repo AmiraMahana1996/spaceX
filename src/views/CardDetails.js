@@ -1,13 +1,8 @@
 import React, { useEffect, useState } from "react";
 import axios from "axios";
-import { useHistory } from "react-router";
 import { Link, useParams } from "react-router-dom";
-import Card from '@mui/material/Card';
-import CardActions from '@mui/material/CardActions';
-import CardContent from '@mui/material/CardContent';
-import CardMedia from '@mui/material/CardMedia';
-import Button from '@mui/material/Button';
-import Typography from '@mui/material/Typography';
+import Card from "@mui/material/Card";
+import CardContent from "@mui/material/CardContent";
 import ButtonUnstyled from "@mui/core/ButtonUnstyled";
 import Stack from "@mui/material/Stack";
 import buttonUnstyledClasses from "@mui/core/ButtonUnstyled";
@@ -67,14 +62,14 @@ const CardDetails = () => {
     flight_number,
     date_utc,
     details,
-    links,
+    // links,
     success,
     payload,
     rocket,
     youtube_id,
-    } = cardData;
-    // const img = links.patch.small
-console.log(cardData);
+  } = cardData;
+  // const img = links.patch.small
+  console.log(cardData);
   return (
     <>
       <div className="container-details">
@@ -152,7 +147,6 @@ console.log(cardData);
               </div>
             </div>
 
-          
             <Stack spacing={2} direction="row">
               <Link to="/past">
                 {" "}
@@ -162,7 +156,6 @@ console.log(cardData);
           </CardContent>
         </Card>
       </div>
-     
     </>
   );
 };

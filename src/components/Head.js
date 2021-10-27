@@ -5,7 +5,7 @@ const Head = () => {
  
     return (
       <>
-       
+       {/* <h2>SpaceX Task</h2> */}
       </>
     );
 }
